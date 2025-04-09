@@ -1,0 +1,302 @@
+@font-face{
+    font-family: gilroy;
+    src: url('Gilroy-Regular.woff2');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 245, 245);
+}
+.header{
+    width: 100%;
+    height: 100px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-nav{
+    display: flex;
+    padding-right: 12vw;
+    gap: 30px;
+    
+}
+.left-nav h3{
+    font-size: 18px;
+    font-family: Gilroy;
+    cursor: pointer;
+    opacity: 0.2;
+    
+}
+.left-nav .light{
+    opacity: 5;
+    color: rgb(122, 208, 236);
+
+}
+.right-nav{
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+.right-nav button{
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(122, 208, 236);
+}
+.right-nav h2{
+    font-family: shaloems;
+}
+.centre-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 50px 0;
+}
+.main h2{
+    font-size: 50px;  
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .style-text{
+    font-family: shaloems;
+    font-weight: 1500;
+    color:lightcoral ;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: gilroy;
+}
+.img-container{
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.main-img img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.d{
+    width: 100%;
+    height: 500px;
+    display: flex;justify-content: center;align-items: center;
+    gap: 70px;
+}
+.d img{
+    width: 300px;
+    height: auto; 
+}
+
+.Work-sample{
+    width: 100%;
+    height: auto;
+    padding: 90px 90px;
+}
+.Work-sample h3{
+    font-size: 1.5vw;
+    font-family: gilroy;
+}
+.Work-sample h1{
+    font-size: 6vw;
+    font-family: gilroy;
+    margin-left: 20px;
+}
+.work-img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    padding:50px;
+    
+}
+.work-img img{
+    width: 25vw;
+    height: 25vw;
+}
+.work-imgg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+    padding:50px;
+}
+.work-imgg img{
+    width: 25vw;
+    height: 25vw;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.lastpage{
+    width: 100%;
+    height: auto;
+    font-family: gilroy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+.lastpage button{
+    width: 350px;
+    height: 70px;
+    border-radius: 25px;
+    border: 0;
+    background-color:#0eb152;
+    box-shadow: 0 4px 20px rgba(72, 148, 110, 0.486);
+    font-family: gilroy;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+}
+.lastpage button
+
+.lastpage button i{
+    font-size: 10px;
+}
+.lastpage button:hover{
+    width: 450px;
+    height: 90px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.lastpage h2{
+    font-size: 2.5vw;
+    font-family: gilroy;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 60px;
+}
+.last-img{
+    width: 100%;
+    height: auto;
+    display: flex;justify-content: center;align-items: center;
+}
+.last-img img{
+    width: 55%;
+    height: 10%;
+}
+.last-line{
+    width: 100%;
+    height:10%;
+    display: flex;justify-content: center;align-items: center;
+    font-size: 15px;
+    font-family: gilroy;
+    color: rgb(63, 62, 62);
+    bottom: 20%;
+}
+.ri-heart-3-line{
+    color: rgb(226, 120, 120);
+}
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction:column;
+        height: auto;
+        padding: 20px;
+
+    }
+    .left-nav, .right-nav {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+
+    }
+    .left-nav{
+        display: none;
+    }
+    .main p{
+        padding: 15px 0px;
+    }
+    .main h2 {
+        font-size: 35px;
+    }
+    .img-container, .d {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-container img, .d img {
+        max-width: 60%;
+    }
+    .Work-sample{
+        position: relative;
+        left: 0%;
+    }
+    .Work-sample h1{
+        font-size: 6.5vw;
+    }
+    .Work-sample h3{
+        font-size: 3vw;
+    }
+    .swiper-slide img {
+        width: 90%;
+    }
+    .lastpage h2 {
+        font-size: 6vw;
+    }
+    .right-nav {
+        padding-left: 0;
+        text-align: center;
+    }
+    .right-nav button {
+        width: 100%;
+    }
+    .main-img img {
+        width: 100%;
+        height: auto;
+    }
+    .last-img img {
+        width: 90%;
+    }
+}    
